@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f1e8">
+  <meta name="description" content="Triloki Sah's personal portfolio and learning projects.">
+  <title>Triloki Sah — Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-theme="light">
+  <div class="reading-progress" role="progressbar" aria-label="Page scroll progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="reading-progress-bar"></span></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header page-wrap" id="top">
+    <a class="brand" href="#top" aria-label="Triloki Sah, home"><span class="brand-mark" aria-hidden="true">TS</span><span>Triloki Sah</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#journey">Journey</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch to dark theme" aria-pressed="false"><span aria-hidden="true">☾</span></button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero page-wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">PERSONAL PORTFOLIO</p>
+        <h1 id="hero-title">Hello, I’m Triloki.</h1>
+        <p class="hero-intro">I’m learning web development and Python while working in quality inspection.</p>
+        <a class="button" href="#projects">See my projects <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="profile-mark" aria-label="Triloki Sah initials">TS</div>
+    </section>
+
+    <section class="section page-wrap" id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About me</h2>
+      <p class="section-copy">I’m pursuing an Online BCA at IGNOU. Alongside my studies, I work in quality inspection on a contract assignment at Tata Electronics, Hosur, through Sunbright Manpower Solutions.</p>
+      <p class="section-copy">My work has helped me develop attention to detail. I’m applying that mindset as I learn technology through practice.</p>
+    </section>
+
+    <section class="section section-tinted" id="journey" aria-labelledby="journey-title">
+      <div class="page-wrap">
+        <h2 id="journey-title">My learning journey</h2>
+        <p class="section-copy">I balance work and study around my schedule. I try to make steady progress with small steps and simple projects.</p>
+        <ul class="journey-list">
+          <li><span>01</span> Plan study time around rotating shifts.</li>
+          <li><span>02</span> Practise with small projects.</li>
+          <li><span>03</span> Learn from mistakes and improve.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section page-wrap" aria-labelledby="experience-title">
+      <h2 id="experience-title">Study and work</h2>
+      <div class="timeline">
+        <article class="timeline-row"><span class="timeline-dot" aria-hidden="true"></span><div><p class="eyebrow">STUDY · IN PROGRESS</p><h3>Online BCA</h3><p>Indira Gandhi National Open University (IGNOU)</p></div></article>
+        <article class="timeline-row"><span class="timeline-dot" aria-hidden="true"></span><div><p class="eyebrow">CONTRACT ASSIGNMENT</p><h3>Quality Inspection</h3><p>Tata Electronics, Hosur · through Sunbright Manpower Solutions</p></div></article>
+      </div>
+    </section>
+
+    <section class="section section-tinted" aria-labelledby="skills-title">
+      <div class="page-wrap">
+        <h2 id="skills-title">Skills I’m learning</h2>
+        <p class="section-copy">A few tools and topics I’m practising.</p>
+        <div class="skill-list" aria-label="Skills">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Software testing</span><span>Quality inspection</span><span>Excel</span><span>BeautifulSoup</span><span>Pandas</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-wrap" id="projects" aria-labelledby="projects-title">
+      <div class="projects-heading">
+        <div><h2 id="projects-title">Learning projects</h2><p class="section-copy">Small projects I’m using to practise.</p></div>
+        <div class="project-filters" role="group" aria-label="Filter learning projects">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-button" type="button" data-filter="web" aria-pressed="false">Web</button>
+          <button class="filter-button" type="button" data-filter="python" aria-pressed="false">Python</button>
+        </div>
+      </div>
+      <p class="visually-hidden" id="filter-status" aria-live="polite"></p>
+      <div class="project-list">
+        <article class="project-row" data-category="web">
+          <span class="project-number" aria-hidden="true">01</span>
+          <div><h3>Personal Portfolio Card</h3><p>A responsive page for presenting my background and learning work.</p></div>
+          <span class="project-type">HTML · CSS · JS</span>
+        </article>
+        <article class="project-row" data-category="python">
+          <span class="project-number" aria-hidden="true">02</span>
+          <div><h3>Python Web Scraper</h3><p>A learning exercise with Python, BeautifulSoup, and Pandas.</p></div>
+          <span class="project-type">Python · Data</span>
+        </article>
+      </div>
+      <p class="project-footnote">These are personal learning projects, not client work.</p>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="page-wrap contact-grid">
+        <div><h2 id="contact-title">Contact</h2><p class="section-copy">I’m open to connecting with people in technology.</p></div>
+        <div class="contact-links" id="contact-links">
+          <a class="contact-link" data-contact="email" hidden><span>Email</span><span aria-hidden="true">↗</span></a>
+          <button class="contact-link copy-email-button" type="button" data-copy-email hidden><span>Copy email address</span><span class="copy-label">Copy</span></button>
+          <a class="contact-link" data-contact="linkedin" hidden><span>LinkedIn</span><span aria-hidden="true">↗</span></a>
+          <a class="contact-link" data-contact="github" hidden><span>GitHub</span><span aria-hidden="true">↗</span></a>
+          <p class="copy-status" id="copy-status" aria-live="polite"></p>
+          <p class="contact-setup" id="contact-setup">Contact links appear here when configured in script.js.</p>
+        </div>
+        <footer class="site-footer"><span>Triloki Sah · Personal Portfolio</span><span>© <span id="current-year">2026</span></span></footer>
+      </div>
+    </section>
+  </main>
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top" title="Back to top" hidden>↑</button>
+</body>
+</html>
